@@ -1,4 +1,9 @@
 # 🚀 MentoriaFlow 
+![Autor](https://img.shields.io/badge/Autor-Pietro%20Costa%20Cardoso-blue?style=flat-square&logo=github)
+![Licença](https://img.shields.io/badge/Licença-MIT-yellow.svg?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Original%20Repo-green?style=flat-square)
+
+> **Aviso:** Este é o repositório original do projeto Nextvance. Se você encontrar este código em outro perfil sem os devidos créditos, ele foi plagiado.
 
    **Choose your language:**
 [🇺🇸 English Version](#-mentoriaflow) - [🇧🇷 Versão em Português](#-mentoriaflow-br)
@@ -7,7 +12,7 @@
 
 ## 🇺🇸 MentoriaFlow
 
-A robust Full Stack application (MERN) designed for mentorship management. This project prioritizes **backend integrity**, featuring complex business rules, secure authentication, and a clean MVC architecture.
+A robust Full Stack application designed for mentorship management. This project prioritizes **backend integrity**, featuring complex business rules, secure authentication, and a clean MVC architecture.
 
 ### 💡 Key Features & Business Logic
 * **Anti-Self-Scheduling:** Logic to prevent mentors from booking their own sessions.
@@ -18,12 +23,12 @@ A robust Full Stack application (MERN) designed for mentorship management. This 
     * Protected routes using custom `verifyToken` middleware.
 * **Media Handling:** Image upload support for profiles and mentorships via **Multer**.
 
-### 🛠 Tech Stack
+### Tech Stack
 * **Backend:** Node.js, Express.js.
 * **Database:** MongoDB with Mongoose (ODM).
 * **Frontend:** React.js (Hooks & Context API).
 
-### 📈 Future Improvements
+### Future Improvements
 * **Unit Testing:** Implementation of Jest and Supertest for backend route validation.
 * **Email Notifications:** Integration with Nodemailer for appointment reminders.
 
@@ -31,7 +36,7 @@ A robust Full Stack application (MERN) designed for mentorship management. This 
 
 ## 🇧🇷 MentoriaFlow (BR)
 
-Uma aplicação Full Stack robusta (MERN) para gerenciamento de mentorias. Este projeto foca na **integridade do backend**, implementando regras de negócio complexas, autenticação segura e uma arquitetura MVC limpa.
+Uma aplicação Full Stack robusta para gerenciamento de mentorias. Este projeto foca na **integridade do backend**, implementando regras de negócio complexas, autenticação segura e uma arquitetura MVC limpa.
 
 ### 💡 Pontos Fortes e Diferenciais
 * **Prevenção de Auto-agendamento:** Impede inteligentemente que um mentor agende sua própria mentoria.
@@ -42,12 +47,12 @@ Uma aplicação Full Stack robusta (MERN) para gerenciamento de mentorias. Este 
     * Proteção de rotas através do middleware customizado `verifyToken`.
 * **Upload de Arquivos:** Gerenciamento de imagens para perfis e vitrine de mentorias via **Multer**.
 
-### 🛠 Tecnologias Utilizadas
+### Tecnologias Utilizadas
 * **Backend:** Node.js, Express.js.
 * **Banco de Dados:** MongoDB com Mongoose (ODM).
 * **Frontend:** React.js (Hooks, Context API).
 
-### 📈 Melhorias Futuras
+###  Melhorias Futuras
 * **Testes Unitários:** Implementação de Jest e Supertest para validar as rotas do backend.
 * **Notificações por E-mail:** Integração com Nodemailer para avisos de agendamento.
 
