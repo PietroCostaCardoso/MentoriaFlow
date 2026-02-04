@@ -1,0 +1,33 @@
+node_modules
+# Arquivos de ambiente (Proteção de dados sensíveis)
+.env
+.env.local
+.env.development.local
+.env.secret
+.env.test.local
+.env.production.local
+
+# Logs e arquivos de sistema
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+# Pastas de Build
+build/
+dist/
+
+# Uploads de imagens (Ignorar arquivos de teste locais)
+backend/public/images/pets/*.png
+backend/public/images/pets/*.jpg
+backend/public/images/users/*.png
+backend/public/images/users/*.jpg
+backend/public/images/mentorships/*.png
+backend/public/images/mentorships/*.jpg
+
+# IDEs e Editores (Configurações locais do VS Code ou WebStorm)
+.vscode/
+.idea/
+
+# Relatórios de cobertura de testes
+coverage/

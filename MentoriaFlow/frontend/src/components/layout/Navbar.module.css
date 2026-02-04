@@ -1,0 +1,138 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 1.5em;
+  background-color: #008080;
+  color: #f5f5f5;
+  position: relative;
+}
+
+.navbar_logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar_logo img {
+  width: 40px;
+  margin-right: .8em;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navbar li,
+.navbar a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .5s;
+  padding: .5em .8em;
+  border-radius: 5px;
+}
+
+.navbar li:hover {
+  background-color: #004d4d;
+  color: #FFF;
+}
+
+.navbar li:hover > a {
+  color: #FFF;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bar {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background-color: #f5f5f5;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 810px) {
+  .hamburger {
+    display: flex;
+    z-index: 101;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .list {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #008080;
+    flex-direction: column;
+    text-align: center;
+    padding: 1em 0;
+    z-index: 100;
+  }
+
+  .list.active {
+    display: flex;
+  }
+
+  .list.active li {
+    padding: 0.5em;
+    opacity: 0;
+    animation: navItemFade 0.4s ease forwards;
+  }
+
+  .list.active li:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  .list.active li:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  .list.active li:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  .list.active li:nth-child(4) {
+    animation-delay: 0.8s;
+  }
+  .list.active li:nth-child(5) {
+    animation-delay: 1.0s;
+  }
+  .list.active li:nth-child(6) {
+    animation-delay: 1.2s;
+  }
+  .list.active li:nth-child(n+7) {
+    animation-delay: 1.4s;
+  }
+
+  .list.active li:hover {
+    background-color: #004d4d;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+
+  @keyframes navItemFade {
+    from {
+      transform: translateY(-15px);
+      opacity: 0;
+    }
+    to { transform: translateY(0); opacity: 1; }
+  }
+}
