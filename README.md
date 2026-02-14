@@ -57,6 +57,14 @@ Uma aplicação Full Stack robusta para gerenciamento de mentorias. Este projeto
 * **Notificações por E-mail:** Integração com Nodemailer para avisos de agendamento.
 
 ---
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/3f01c317-283e-472d-be9d-14afe9e2812f" width="45%" />
+  <img src="https://github.com/user-attachments/assets/7756db99-cc84-4de0-9c7e-be1dcae540f5" width="45%" />
+  <img src="https://github.com/user-attachments/assets/1392d8b2-e00c-4296-a7fa-45505d4ffe7d" width="45%" />
+  <img src="https://github.com/user-attachments/assets/1abed1d9-704c-4d2d-9f03-ce3b996e1092?v=1)" width="45%" height="205px" />
+  <img src="https://github.com/user-attachments/assets/a0c8d957-7af1-455f-bcf6-d6b139fc6a43" width="45%" />
+</div>
+
 
 ## Project Structure / Estrutura do Projeto
 
