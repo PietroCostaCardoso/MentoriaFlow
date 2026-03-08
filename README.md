@@ -12,7 +12,7 @@
 
 ## 🇺🇸 MentoriaFlow
 
-A robust Full Stack application designed for mentorship management. This project prioritizes **backend integrity**, featuring complex business rules, secure authentication, and a clean MVC architecture.......
+A robust Full Stack application designed for mentorship management. This project prioritizes **backend integrity**, featuring complex business rules, secure authentication, and a clean MVC architecture......
 
 ### 💡 Key Features & Business Logic
 * **Anti-Self-Scheduling:** Logic to prevent mentors from booking their own sessions.
