@@ -6,7 +6,7 @@ const getToken = require('../helpers/get-token')
 const ObjectId = require('mongoose').Types.ObjectId
 
 module.exports = class MentorController {
-  // create 
+  // Captura os dados da requisição para criar um novo mentor
   static async create(req, res) {
     const title = req.body.title
     const duration = req.body.duration
