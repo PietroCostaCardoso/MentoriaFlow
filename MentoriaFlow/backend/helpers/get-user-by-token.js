@@ -2,7 +2,7 @@ const jwt = require("jsonwebtoken");
 
 const User = require("../models/User");
 
-// get user by
+// Valida o JWT e confirma a existência do usuário no banco para garantir uma autenticação segura 
 const getUserByToken = async (token, res) => {
   if (!token) {
     res.status(401).json({ message: "Acesso negado!" });
