@@ -2,7 +2,7 @@ const router = require('express').Router()
 
 const MentorController = require('../controllers/MentorController')
 
-// middl
+// Define as rotas de API
 const verifyToken = require('../helpers/check-token')
 const { imageUpload } = require('../helpers/image-upload')
 
